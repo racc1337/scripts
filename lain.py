@@ -49,7 +49,7 @@ async def hello(*args):
 async def moyai(args):
 	await lain.say(":moyai:"*int(args))
 
-@lain.command()
+@lain.command() 
 async def fetch(arg2=None):
 	if arg2 is None:
 		arg2='Dankmemes'
